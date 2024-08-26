@@ -1,0 +1,45 @@
+body {
+    font-size: 16px;
+}
+
+.container {
+    background-color: rgb(228, 205, 205);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px auto 0px auto;
+    padding: 25px;
+    border: 1px solid black;
+    width: 35%;
+    min-width: 350px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+#showTodo {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+#showTodo div {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px 10px 10px;
+    border: 2px solid black;
+    margin: 10px;
+    justify-content: center;
+    width: 150px;
+}
