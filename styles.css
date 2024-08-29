@@ -33,8 +33,9 @@ body {
     display: flex;
     flex-direction: column;
     padding: 5px 10px 10px 10px;
-    margin: 10px;
+    margin-right: 7px;
+    margin-bottom: 7px;
     justify-content: center;
-    width: 150px;
+    width: 120px;
     border-radius: 10px;
 }
